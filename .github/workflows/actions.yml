@@ -1,7 +1,7 @@
 name: Actions Workflow
 
 on: 
-  push:
+  pull_request:
     branches:
       - master
       - 'feature/*'
@@ -15,7 +15,7 @@ on:
     #   - 'docs/**'
 
 
-  # pull_request:
+  # push:
   #   branches:
   #     - master
 
