@@ -4,13 +4,14 @@ on:
   push:
     branches:
       - master
-      - 'feature/*'
-      - 'feature/**'
-      - '!feature/featC'
-    tags:
-      - v1.*
-    paths:
-      - '**.js'
+      # - 'feature/*'
+      # - 'feature/**'
+      # - '!feature/featC'
+    # tags:
+    #   - v1.*
+    # paths:
+    #   - '**.js'
+
     # paths-ignore:
     #   - 'docs/**'
 
