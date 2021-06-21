@@ -3,7 +3,7 @@ name: Actions Workflow
 on: 
   push:
     branches:
-      - master1
+      - master
       # - 'feature/*'
       # - 'feature/**'
       # - '!feature/featC'
